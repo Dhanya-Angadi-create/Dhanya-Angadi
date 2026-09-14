@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Dhanya Angadi
 
 ## 📚 About Me
-I am a passionate **B.E. Electronics and Communication** student at **KLE Technological University**, actively exploring the fields of **Python**, **Artificial Intelligence**, and **IoT**.
+I am a passionate **B.E. Electronics and Communication** student at **KLE Technological University**, actively exploring the fields of **Python**, **Artificial Intelligence**
 
 ## 🎓 Education
 - **Degree:** B.E. in Electronics and Communication
