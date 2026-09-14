@@ -6,13 +6,11 @@ I am a passionate **B.E. Electronics and Communication** student at **KLE Techno
 ## 🎓 Education
 - **Degree:** B.E. in Electronics and Communication
 - **University:** KLE Technological University
-- **Focus Areas:** Python, AI, IoT & Embedded Systems
+- **Focus Areas:** Python, AI
 
 ## 💻 Skills
-- **Programming Languages:** Python
+- **Programming Languages:** Python and C programming and DSA
 - **AI & Machine Learning:** Learning and developing skills
-- **Embedded Systems:** ESP32, Arduino IDE
-- **Hardware Platforms:** Arduino, Microcontrollers
 
 ## 🚀 Projects
 
@@ -35,16 +33,10 @@ I am a passionate **B.E. Electronics and Communication** student at **KLE Techno
 
 ## 🌱 Currently Learning
 - Advanced Python programming
-- Artificial Intelligence & Machine Learning concepts
-- IoT applications and development
-- Real-time system design
+- Artificial Intelligence Tools
 
 ## 💡 Interests
-- Robotics and Automation
-- Smart Home Technology
-- Machine Learning Applications
-- Embedded Systems Design
-
+- AI agents
 ---
 
 **Feel free to explore my repositories and connect with me!** 🚀
