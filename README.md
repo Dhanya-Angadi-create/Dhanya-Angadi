@@ -32,7 +32,7 @@ I am a passionate **B.E. Electronics and Communication** student at **KLE Techno
 - **GitHub:** [@Dhanya-Angadi-create](https://github.com/Dhanya-Angadi-create)
 
 ## 🌱 Currently Learning
-- Advanced Python programming
+- Python programming
 - Artificial Intelligence Tools
 
 ## 💡 Interests
