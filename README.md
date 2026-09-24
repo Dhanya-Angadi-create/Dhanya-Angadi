@@ -1,5 +1,15 @@
 # 👋 Hi, I'm Dhanya Angadi
 
+## 🍬 SweetMatch
+
+SweetMatch is a colorful, responsive match-3 candy game built with plain HTML, CSS, and JavaScript. Open `index.html` in a browser to play.
+
+### Game features
+- 8×8 board with valid swaps, matches, cascading refills, and combo scoring
+- Score goal, move counter, streak counter, shuffle control, and win modal
+- Responsive layout designed for desktop and mobile screens
+- No build step or dependencies required
+
 ## 📚 About Me
 I am a passionate **B.E. Electronics and Communication** student at **KLE Technological University**, actively exploring the fields of **Python**, **Artificial Intelligence**
 

@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#fff7fb" />
+    <title>Sweet Match</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="#" aria-label="Sweet Match home">
+          <span class="brand-mark">✦</span>
+          <span>Sweet<span>Match</span></span>
+        </a>
+        <button class="icon-button" id="sound-toggle" type="button" aria-label="Toggle sound">♫</button>
+      </header>
+
+      <section class="hero">
+        <div>
+          <p class="eyebrow">LEVEL 12 <span>•</span> CANDY CLOUDS</p>
+          <h1>Make a <em>sweet</em> match!</h1>
+          <p class="hero-copy">Swap candies, make combos, and reach the goal before your moves run out.</p>
+        </div>
+        <div class="level-badge" aria-label="Current level 12">
+          <span>LEVEL</span>
+          <strong>12</strong>
+        </div>
+      </section>
+
+      <section class="stats" aria-label="Game statistics">
+        <div class="stat-card score-card">
+          <span class="stat-label">SCORE</span>
+          <strong id="score">0</strong>
+          <div class="score-bar"><span id="score-bar-fill"></span></div>
+        </div>
+        <div class="stat-card moves-card">
+          <span class="stat-label">MOVES</span>
+          <strong id="moves">25</strong>
+          <span class="moves-caption">left</span>
+        </div>
+        <div class="stat-card goal-card">
+          <span class="stat-label">GOAL</span>
+          <strong>2,500</strong>
+          <span class="goal-icon">★</span>
+        </div>
+      </section>
+
+      <section class="game-layout">
+        <div class="board-wrap">
+          <div class="board-heading">
+            <span>Current streak <strong id="streak">0</strong></span>
+            <button id="shuffle-button" type="button">⤨ Shuffle</button>
+          </div>
+          <div id="board" class="board" role="grid" aria-label="Candy game board"></div>
+          <p class="hint" id="hint">Tip: match 4 candies to make a striped blast!</p>
+        </div>
+
+        <aside class="side-panel">
+          <div class="mission-card">
+            <div class="mission-icon">🏆</div>
+            <div>
+              <p class="stat-label">LEVEL GOAL</p>
+              <strong>Score 2,500 points</strong>
+              <div class="goal-progress"><span id="goal-progress"></span></div>
+              <small id="goal-label">0 / 2,500</small>
+            </div>
+          </div>
+          <div class="booster-card">
+            <p class="stat-label">BOOSTERS</p>
+            <div class="boosters">
+              <button class="booster" type="button" data-booster="hammer" aria-label="Hammer booster, 3 available"><span>🔨</span><b>3</b></button>
+              <button class="booster" type="button" data-booster="shuffle" aria-label="Shuffle booster, 2 available"><span>🔀</span><b>2</b></button>
+              <button class="booster" type="button" data-booster="color" aria-label="Color bomb booster, 1 available"><span>🌈</span><b>1</b></button>
+            </div>
+          </div>
+          <button class="new-game-button" id="new-game-button" type="button">↻ New game</button>
+        </aside>
+      </section>
+    </main>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <div class="modal-backdrop" id="win-modal" hidden>
+      <div class="modal" role="dialog" aria-modal="true" aria-labelledby="win-title">
+        <div class="modal-confetti">🎉 ✨ 🍭</div>
+        <p class="eyebrow">SWEET SUCCESS</p>
+        <h2 id="win-title">Level complete!</h2>
+        <p>You reached the goal with <strong id="final-score">0</strong> points.</p>
+        <button class="new-game-button" id="play-again-button" type="button">Play again</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
