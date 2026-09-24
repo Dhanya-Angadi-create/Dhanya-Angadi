@@ -34,6 +34,7 @@ I am a passionate **B.E. Electronics and Communication** student at **KLE Techno
 ## 🌱 Currently Learning
 - Python programming
 - Artificial Intelligence Tools
+- C programming and DSA
 
 ## 💡 Interests
 - AI agents
